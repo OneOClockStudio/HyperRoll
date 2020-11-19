@@ -908,6 +908,14 @@ namespace HyperRoll
                 txtbxWis.Text = wisdom;
                 txtbxWisMod.Text = wisMod;
             }
+            else if (wisInt == 9)
+            {
+                wisModInt = -1;
+                wisdom = "9";
+                wisMod = "-1";
+                txtbxWis.Text = wisdom;
+                txtbxWisMod.Text = wisMod;
+            }
         }
         public void SetWis()
         {
